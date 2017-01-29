@@ -1,1 +1,68 @@
-/* custom styles */
+html, body {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    min-height: 100%;
+}
+body{
+  position: relative;
+}
+h3{
+  text-align: center;
+  padding: 10%;
+
+}
+p{
+  padding-left: 15%;
+  padding-right: 15%;
+  vertical-align: middle;
+}
+.pagewrapper{
+  min-height: 100%;
+  position: relative;
+}
+.logo{
+  max-height: 300px;
+  max-width: auto;
+}
+.mascot{
+  padding-left: 45px;
+}
+.nav-buttons{
+  margin-left: 135px;
+}
+.nav-list{
+  padding-top: 75px;
+}
+.btn{
+  padding: 0;
+  border: none;
+  background: none;
+}
+.no-gutter{
+  padding-left:0;
+  padding-right:0;
+}
+.page-content{
+  min-height: 100%;
+}
+.footer{
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  position: absolute;
+  z-index: 99;
+}
+.footbar{
+  vertical-align: center;
+}
+#bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
