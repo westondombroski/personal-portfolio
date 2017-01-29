@@ -49,12 +49,12 @@ p{
 .footer{
   background-color: white;
   position: absolute;
-  bottom: 0;
-  left: 0;
+  bottom: 0px;
+  left: 0px;
   width: 100%;
   height: 80px;
   text-align: center;
-  position: absolute;
+  position: fixed;
   z-index: 99;
 }
 .footbar{
@@ -66,19 +66,4 @@ p{
   left: 0;
   min-width: 100%;
   min-height: 100%;
-}
-a #fb:hover{
-  image: url("assets/imgs/fb_hov.png");
-}
-a #tw:hover{
-  background-image: url("/assets/imgs/tw_hov.png");
-}
-a #gm:hover{
-  background-image: url("/assets/imgs/gm_hov.png");
-}
-a #tw:hover{
-  background-image: url("/assets/imgs/tw_hov.png");
-}
-a #in:hover{
-  background-image: url("/assets/imgs/in_hov.png");
 }
