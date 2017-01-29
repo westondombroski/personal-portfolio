@@ -31,7 +31,7 @@ p{
 .nav-buttons{
   margin-left: 135px;
 }
-.nav-list{
+.menu{
   padding-top: 75px;
 }
 .btn{
@@ -66,4 +66,19 @@ p{
   left: 0;
   min-width: 100%;
   min-height: 100%;
+}
+a #fb:hover{
+  image: url("assets/imgs/fb_hov.png");
+}
+a #tw:hover{
+  background-image: url("/assets/imgs/tw_hov.png");
+}
+a #gm:hover{
+  background-image: url("/assets/imgs/gm_hov.png");
+}
+a #tw:hover{
+  background-image: url("/assets/imgs/tw_hov.png");
+}
+a #in:hover{
+  background-image: url("/assets/imgs/in_hov.png");
 }
