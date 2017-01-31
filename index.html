@@ -21,71 +21,88 @@
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
-  <!--background image-->
+
+<!--background image-->
 <img src="assets/imgs/bg.jpg" id="bg">
 
 <div class="container-fluid" "pagewrapper">
   <div class="row">
-      <!--header logos and photos-->
+<!--header logos and photos-->
     <div class="col-md-12">
       <nav id="main-menu">
         <img class="img-responsive btn logo static" src="assets/imgs/wd.png" alt="WD">
         <div class="hidden">  <!--HIDDEN page headers-->
-          <img class="img-responsive btn logo static" src="assets/imgs/who_head.png" alt="pic">
-          <img class="img-responsive btn logo static" src="assets/imgs/what_head.png" alt="pic">
-          <img class="img-responsive btn logo static" src="assets/imgs/where_head.png" alt="pic">
-          <img class="img-responsive btn logo static" src="assets/imgs/why_head.png" alt="pic">
+          <img class="img-responsive btn logo static" src="assets/imgs/who_head.png" alt="pic"> <!--Who Header-->
+          <img class="img-responsive btn logo static" src="assets/imgs/what_head.png" alt="pic"> <!--What Header-->
+          <img class="img-responsive btn logo static" src="assets/imgs/where_head.png" alt="pic"> <!--Where Header-->
+          <img class="img-responsive btn logo static" src="assets/imgs/why_head.png" alt="pic"> <!--Why Header-->
         </div>
       </nav>
 
-          <!--nav bar-->
+<!--nav bar-->
       <div class="row">
         <nav class="col-md-4">  <!--HIDDEN nav bar buttons-->
-            <ul id="nav" class="list-unstyled menu">
-              <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/who.png" alt="who"></a></li>
-              <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/what.png" alt="what"></a></li>
-              <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/where.png" alt="where"></a></li>
-              <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/why.png" alt="why"></a></li>
-            </ul>
+          <ul id="nav" class="list-unstyled menu">
+            <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/who.png" alt="who"></a></li>
+            <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/what.png" alt="what"></a></li>
+            <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/where.png" alt="where"></a></li>
+            <li><a href=#><img class="center-block responsive nav-buttons btn" src="assets/imgs/why.png" alt="why"></a></li>
+          </ul>
         </nav>
 
-          <!--homepage photo-->
+<!--homepage / dropdown menu photo-->
         <div class="col-md-8 no-gutter">
           <div class="mascot">
-            <img class="img-responsive mascot  hidden-sm" src="assets/imgs/wd0.png" alt="wd0">
-            <img class="img-responsive mascot hidden  hidden-sm" src="assets/imgs/wd1.png" alt="wd1">
+            <img class="img-responsive mascot" src="assets/imgs/wd0.png" alt="wd0"> <!--homepage mascot-->
+            <img class="img-responsive mascot hidden" src="assets/imgs/wd1.png" alt="wd1"> <!--when menu drops down mascot-->
           </div>
 
 
-          <!--content-->
-          <div class="hidden" style="background-color: white;">   <!--HIDDEN page content-->
-              <!--'who' content-->
+<!--content-->
+
+          <div class= "hidden" style="background-color: white;">   <!--HIDDEN page content-->
+<!--'who' content-->
             <div class="page-content">
               <h3>who</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>This is the bit where I talk about myself: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
-              <!--'what' content-->
+<!--'what' content-->
             <div class="page-content">
               <h3>what<h3>
-                <div>
-                  <table class="table"></table>
-                </div>
+              <div>
+                <ul class="col-md-12 list-inline list-unstyled">
+                  <li class="col-md-6"><a href="https://github.com/westondombroski/westondombroski.github.io"><img src="#" alt="This Site" class="img-rounded"></a></li>
+                  <li class="col-md-6"><a href="https://github.com/westondombroski/wdi-fundamentals-memorygame"><img src="#" alt="Memory Game" class="img-rounded"></a></li>
+                  <li class="col-md-6"><a href="https://github.com/westondombroski/problem-set-js-basics"><img src="#" alt="JS Training" class="img-rounded"></a></li>
+                  <li class="col-md-6"><a href="#"><img src="#" alt="Project 4" class="img-rounded"></a></li>
+                  <li class="col-md-6"><a href="#"><img src="#" alt="Project 5" class="img-rounded"></a></li>
+                  <li class="col-md-6"><a href="#"><img src="#" alt="Project 6" class="img-rounded"></a></li>
+                </ul>
+              </div>
             </div>
-              <!--'where' content-->
+<!--'where' content-->
             <div class="page-content">
               <h3>where<h3>
+              <ul class="list-inline">
+                <li><a href="https://www.facebook.com/weston.dombroski"><img class="responsive btn" onmouseout="this.src='assets/imgs/fb.png'" onmouseover="this.src='assets/imgs/fb_hov.png'" src="assets/imgs/fb.png" alt="facebook"></a></li>
+                <li><a href="https://github.com/westondombroski"><img class="responsive btn" onmouseout="this.src='assets/imgs/gh.png'" onmouseover="this.src='assets/imgs/gh_hov.png'" src="assets/imgs/gh.png" alt="github"></a></li>
+                <li><a href="westondombroski@gmail.com"><img class="responsive btn" onmouseout="this.src='assets/imgs/gm.png'" onmouseover="this.src='assets/imgs/gm_hov.png'" src="assets/imgs/gm.png" alt="email"></a></li>
+                <li><a href="https://twitter.com/WestonDombroski"><img class="responsive btn" onmouseout="this.src='assets/imgs/tw.png'" onmouseover="this.src='assets/imgs/tw_hov.png'" src="assets/imgs/tw.png" alt="twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/westondombroski"><img class="responsive btn" onmouseout="this.src='assets/imgs/in.png'" onmouseover="this.src='assets/imgs/in_hov.png'" src="assets/imgs/in.png" alt="linkedin"></a></li>
+              </ul>
             </div>
-              <!--'why' content-->
+<!--'why' content-->
             <div class="page-content">
-              <h3>why<h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <h3>why</h3>
+              <p>This is the bit where I talk about why I'm becoming a developer: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-        <!--footer-->
+
+<!--footer-->
 
   <div class="col-md-12 footer">
     <div class="row footer">

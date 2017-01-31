@@ -10,6 +10,6 @@ the js is giving me a lot of trouble currently, but all of the page content is i
 Ultimately, this site will provide an expansive resource of the web development projects that I believe best show my capabilities as a web developer.
 
 ## Live link to site
-[this](https://westondombroski.github.io)
+[weston dombroski portfolio project](https://westondombroski.github.io)
 
 ![alt text](https://github.com/westondombroski/westondombroski.github.io/blob/master/assets/imgs/wd6.png)
