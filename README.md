@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[
+  <content><![CDATA[>
 ## Weston Dombroski Portfolio Project
 Weston Dombroski's Portfolio Project: This site utilizes html, css, and (though I'm still very much working on it) javascript and jquery as well.
 
@@ -12,5 +12,4 @@ Ultimately, this site will provide an expansive resource of the web development 
 ## Live link to site
 [this](https://westondombroski.github.io)
 
-Inline-style:
 ![alt text](https://github.com/westondombroski/westondombroski.github.io/blob/master/assets/imgs/wd6.png)
