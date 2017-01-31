@@ -1,6 +1,5 @@
-<snippet>
-  <content><![CDATA[
-## Weston Dombroski Portfolio Project
+
+# Weston Dombroski Portfolio Project
 Weston Dombroski's Portfolio Project: This site utilizes html, css, and (though I'm still very much working on it) javascript and jquery as well.
 
 the js is giving me a lot of trouble currently, but all of the page content is in html document:
@@ -13,6 +12,3 @@ Ultimately, this site will provide an expansive resource of the web development 
 [weston dombroski portfolio project](https://westondombroski.github.io)
 
 ![alt text](https://github.com/westondombroski/westondombroski.github.io/blob/master/assets/imgs/wd6.png)
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>

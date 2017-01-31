@@ -14,7 +14,7 @@ h3{
 }
 p{
   font-family:sans-serif;
-  font-size: medium;
+  font-size: small;
   padding-left: 15%;
   padding-right: 15%;
   vertical-align: middle;
@@ -61,6 +61,10 @@ p{
 }
 .footbar{
   padding-top: 15px;
+}
+.whitebg{
+  height: 100%;
+  min-height: 100%;
 }
 #bg{
   position: fixed;
