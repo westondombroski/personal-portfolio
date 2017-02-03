@@ -1,6 +1,7 @@
 html, body {
     margin-top: 0;
     margin-bottom: 0;
+    padding: 0;
     height: 100%;
     min-height: 100%;
 }
@@ -9,7 +10,7 @@ body{
 }
 h3{
   text-align: center;
-  padding: 10%;
+  padding: 7%;
 
 }
 p{
@@ -31,7 +32,7 @@ p{
   padding-left: 45px;
 }
 .nav-buttons{
-  margin-left: 135px;
+  text-align: center;
 }
 .menu{
   padding-top: 75px;
@@ -46,7 +47,7 @@ p{
   padding-right:0;
 }
 .page-content{
-  min-height: 100%;
+  padding-bottom:80px;
 }
 .footer{
   background-color: white;
@@ -63,7 +64,7 @@ p{
   padding-top: 15px;
 }
 .whitebg{
-  height: 500px;
+  position: relative;
   min-height: 100%;
 }
 #bg{
