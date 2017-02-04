@@ -28,8 +28,9 @@ p{
   max-height: 300px;
   max-width: auto;
 }
-.mascot{
-  padding-left: 45px;
+.mascot {
+  padding-left: 80px;
+  padding-bottom: 80px;
 }
 .nav-buttons{
   text-align: center;
@@ -66,6 +67,9 @@ p{
 .whitebg{
   position: relative;
   min-height: 100%;
+}
+.navbar {
+  padding-bottom: 80px;
 }
 #bg{
   position: fixed;
