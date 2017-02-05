@@ -14,7 +14,7 @@
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- scripts -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/W.png">
@@ -24,8 +24,8 @@
 <img src="assets/imgs/bg.jpg" id="bg">
 <div class="container-fluid" "pagewrapper">
   <div class="row">
-<!--header logos and photos-->
-    <div class="col-xs-12 ">
+  <!--header logos and photos-->
+    <div class="col-xs-12">
       <div>
         <a id="main_menu"><img class="img-responsive btn logo static homepage menupage"     src="assets/imgs/wd.png"         alt="WD"></a>
         <a class="backtomain"><img class="img-responsive btn logo static hidden whopage"    src="assets/imgs/who_head.png"   alt="whohead"></a> <!--Who Header-->
@@ -33,9 +33,9 @@
         <a class="backtomain"><img class="img-responsive btn logo static hidden wherepage"  src="assets/imgs/where_head.png" alt="wherehead"></a> <!--Where Header-->
         <a class="backtomain"><img class="img-responsive btn logo static hidden whypage"    src="assets/imgs/why_head.png"   alt="whyhead"></a> <!--Why Header-->
       </div>
-<!--nav bar-->
+      <!--nav bar-->
       <div class="row">
-        <div id="nav" class="col-xs-4">  <!--HIDDEN nav bar buttons-->
+        <div id="nav" class="col-xs-6 col-md-4">  <!--HIDDEN nav bar buttons-->
           <ul class="list-unstyled menu hidden navbar">
             <li><a id="who_btn"   href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/who.png"   alt="who"></a></li>
             <li><a id="what_btn"  href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/what.png"  alt="what"></a></li>
@@ -43,19 +43,15 @@
             <li><a id="why_btn"   href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/why.png"   alt="why"></a></li>
           </ul>
         </div>
-
-<!--homepage / dropdown menu photo-->
-        <div class="col-xs-8 no-gutter">
+        <!--homepage/dropdown-menu photo-->
+        <div id="mascot" class="col-xs-6 col-md-8 no-gutter">
           <div class="mascots">
             <img class="img-responsive mascot menu homepage" src="assets/imgs/wd0.png" alt="wd0"> <!--homepage mascot-->
             <img class="img-responsive mascot menu menupage hidden"   src="assets/imgs/wd1.png" alt="wd1"> <!--when menu drops down mascot-->
           </div>
-
-
-<!--content-->
-
+          <!--content-->
           <div class= "hidden whitebg" style="background-color: white;">   <!--HIDDEN page content-->
-<!--'who' content-->
+            <!--'who' content-->
             <div class="page-content whopage hidden">
               <h3>who</h3>
               <p>Ethical craft beer four loko, butcher distillery gentrify master cleanse raw denim drinking vinegar. Messenger bag af shabby chic leggings synth. Raw denim keffiyeh kale chips ethical, af tbh yr gentrify. Air plant quinoa cardigan, roof party taxidermy food truck retro fap ennui mumblecore raclette. Venmo cliche locavore try-hard. Scenester literally hashtag taxidermy, subway tile beard street art authentic microdosing. Ennui messenger bag hell of, live-edge knausgaard deep v leggings.
@@ -63,26 +59,24 @@
               <p>Salvia four loko pabst 90's. Poke air plant before they sold out salvia narwhal cold-pressed, +1 keffiyeh pop-up tote bag stumptown art party forage fixie. Tofu narwhal literally celiac. Umami air plant gochujang letterpress, authentic blue bottle edison bulb yuccie. Squid typewriter fanny pack, tilde vexillologist kickstarter semiotics mustache vape kinfolk trust fund chambray. Brunch hoodie typewriter vice, twee readymade cold-pressed kale chips pork belly 3 wolf moon viral selvage vegan bespoke. Kinfolk sartorial brunch chicharrones letterpress tumeric man braid vice, chia taxidermy pop-up pork belly typewriter tote bag drinking vinegar.
                 Tofu meditation pok pok meggings lomo tilde, slow-carb farm-to-table craft beer kinfolk. Kickstarter poke bushwick crucifix, williamsburg retro polaroid skateboard. Hammock iPhone small batch typewriter knausgaard four loko, umami thundercats vice. Art party kale chips tote bag la croix asymmetrical heirloom, street art pitchfork. Quinoa master cleanse sriracha lomo artisan iPhone selfies hella, air plant post-ironic truffaut prism viral occupy typewriter. Tilde gastropub migas hoodie. Listicle shabby chic craft beer master cleanse.</p>
             </div>
-<!--'what' content-->
-            <div class="page-content whatpage hidden">
-              <h3>what<h3>
+            <!--'what' content-->
+            <div class="col-xs-12 page-content whatpage hidden">
               <div>
                 <ul class="list-inline list-unstyled projects">
                 </ul>
               </div>
             </div>
-<!--'where' content-->
+            <!--'where' content-->
             <div class="col-xs-12 page-content wherepage hidden">
-              <h3><h3>
-              <ul class="list-inline">
-                <li><a href="https://www.facebook.com/weston.dombroski">  <img class="responsive btn" onmouseout="this.src='assets/imgs/fb.png'" onmouseover="this.src='assets/imgs/fb_hov.png'" src="assets/imgs/fb.png" alt="facebook"></a></li>
-                <li><a href="https://github.com/westondombroski">         <img class="responsive btn" onmouseout="this.src='assets/imgs/gh.png'" onmouseover="this.src='assets/imgs/gh_hov.png'" src="assets/imgs/gh.png" alt="github"></a></li>
-                <li><a href="westondombroski@gmail.com">                  <img class="responsive btn" onmouseout="this.src='assets/imgs/gm.png'" onmouseover="this.src='assets/imgs/gm_hov.png'" src="assets/imgs/gm.png" alt="email"></a></li>
-                <li><a href="https://twitter.com/WestonDombroski">        <img class="responsive btn" onmouseout="this.src='assets/imgs/tw.png'" onmouseover="this.src='assets/imgs/tw_hov.png'" src="assets/imgs/tw.png" alt="twitter"></a></li>
-                <li><a href="https://www.linkedin.com/in/westondombroski"><img class="responsive btn" onmouseout="this.src='assets/imgs/in.png'" onmouseover="this.src='assets/imgs/in_hov.png'" src="assets/imgs/in.png" alt="linkedin"></a></li>
+              <ul>
+                <li><a href="https://www.facebook.com/weston.dombroski">  <img class="col-xs-1 col-xs-offset-6 responsive btn" onmouseout="this.src='assets/imgs/fb.png'" onmouseover="this.src='assets/imgs/fb_hov.png'" src="assets/imgs/fb.png" alt="facebook"></a></li>
+                <li><a href="https://github.com/westondombroski">         <img class="col-xs-1 col-xs-offset-6 responsive btn" onmouseout="this.src='assets/imgs/gh.png'" onmouseover="this.src='assets/imgs/gh_hov.png'" src="assets/imgs/gh.png" alt="github"></a></li>
+                <li><a href="westondombroski@gmail.com">                  <img class="col-xs-1 col-xs-offset-6 responsive btn" onmouseout="this.src='assets/imgs/gm.png'" onmouseover="this.src='assets/imgs/gm_hov.png'" src="assets/imgs/gm.png" alt="email"></a></li>
+                <li><a href="https://twitter.com/WestonDombroski">        <img class="col-xs-1 col-xs-offset-6 responsive btn" onmouseout="this.src='assets/imgs/tw.png'" onmouseover="this.src='assets/imgs/tw_hov.png'" src="assets/imgs/tw.png" alt="twitter"></a></li>
+                <li><a href="https://www.linkedin.com/in/westondombroski"><img class="col-xs-1 col-xs-offset-6 responsive btn" onmouseout="this.src='assets/imgs/in.png'" onmouseover="this.src='assets/imgs/in_hov.png'" src="assets/imgs/in.png" alt="linkedin"></a></li>
               </ul>
             </div>
-<!--'why' content-->
+            <!--'why' content-->
             <div class="page-content whypage hidden">
               <h3>why</h3>
               <p>Man bun roof party XOXO single-origin coffee, heirloom iPhone vape swag 90's craft beer keytar pitchfork subway tile affogato farm-to-table. Brunch occupy irony kale chips seitan flannel. Next level lumbersexual cornhole sriracha pickled offal. Yr bushwick VHS, everyday carry vaporware roof party kitsch. Austin vice iPhone man braid, kogi green juice offal pop-up chia cornhole. Mlkshk lo-fi hella sartorial vegan four loko. Copper mug cardigan taxidermy man bun.
@@ -95,9 +89,7 @@
       </div>
     </div>
   </div>
-
 <!--footer-->
-
   <div class="col-xs-12 footer">
     <div class="row footer">
       <ul class="list-inline">
@@ -109,7 +101,6 @@
       </ul>
     </div>
   </div>
-
 </div>
 </body>
 </html>

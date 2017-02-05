@@ -55,8 +55,7 @@ $(document).ready(function(){
     $(".whitebg").addClass("hidden");
     $(".navbar").addClass("hidden");
     $(".homepage").removeClass("hidden");
-  })
-
+  });
 
 
 var projects = [{
@@ -81,14 +80,10 @@ var projects = [{
     'link': "https://github.com/westondombroski/building-js-iterators-lab"
   }];
 
-  for(var i = 0; i < projects.length; i++) {
-      var project = ("<li class='col-md-6'><a href='" +
-      projects.link[i] + "'><img src='" +
-      projects.picture[i] + "'alt='" +
-      projects.name[i] + "'class='img-rounded'><p>" +
-      projects.description[i] + "</p></a></li>");
-    }
+for(var i = 0; i < projects.length; i++) {
+  var eachProject = projects[i];
+  var addProject = (`<li class='col-xs-12 col-sm-6'><a href='${eachProject.link}'><img src='${eachProject.picture}'alt='${eachProject.name}' class= 'img-rounded col-xs-12 col-md-6'><p>${eachProject.description}</p></a></li>`);
+  $(".projects").append(addProject);
+}
 
-    $(".projects").append(project);
-
- });
+});

@@ -71,6 +71,8 @@ p{
 .navbar {
   padding-bottom: 80px;
 }
+#mainmenu, .backtomain, #nav, #mascot {
+}
 #bg{
   position: fixed;
   top: 0;
