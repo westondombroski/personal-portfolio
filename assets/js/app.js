@@ -60,25 +60,29 @@ $(document).ready(function(){
 
 
 var projects = [{
-    'picture': "assets/imgs/code.jpg",
-    'name': "weston dombroski portfolio project",
-    'description': "the code of the site you are currently enjoying, enjoy",
-    'link': "https://github.com/westondombroski/westondombroski.github.io"
+    'picture': "assets/imgs/WhoPlayedOnThat.png",
+    'name': "Who Played On That?",
+    'description': "An app for all those times that you think, 'Man, that's a funky beat, who played drums on that track?'",
+    'link': "https://whoplayedonthat.herokuapp.com",
+    'devs': "Weston"
+  },
+  { 'picture': "assets/imgs/GAHub.png",
+    'name': "GA-Hub",
+    'description': "Quick and easy search application for General Assembly's SF Web Development Immersive labs and lectures",
+    'link':"https://assembled.herokuapp.com"
+    'devs': "Anton, Brett, Ivan & Weston"
+  },
+  { 'picture': "assets/imgs/CarpeGov.png",
+    'name': "CarpeGov",
+    'description': "Find, store, sort and take action on current and pending legislation",
+    'link': "https://carpegov.herokuapp.com",
+    'devs': "Yan Yin and Weston"
   },
   { 'picture': "assets/imgs/code.jpg",
-    'name': "wdi memory game",
-    'description': "a little four card memory game",
-    'link':"https://github.com/westondombroski/wdi-fundamentals-memorygame"
-  },
-  { 'picture': "assets/imgs/code.jpg",
-    'name': "js basics",
-    'description': "showing off only the most basic of js skills",
-    'link': "https://github.com/westondombroski/problem-set-js-basics"
-  },
-  { 'picture': "assets/imgs/code.jpg",
-    'name': "building js iterators",
-    'description': "just building some javascript iterators",
-    'link': "https://github.com/westondombroski/building-js-iterators-lab"
+    'name': "Vagabond",
+    'description': "A social travel application. Sign up, login, find and post comments on your favorite travel destinations",
+    'link': "https://vagabondapp1.herokuapp.com"
+    'devs': "Chris, Thelma, Yvonne and Weston"
   }];
 
   for(var i = 0; i < projects.length; i++) {
@@ -86,7 +90,8 @@ var projects = [{
       projects.link[i] + "'><img src='" +
       projects.picture[i] + "'alt='" +
       projects.name[i] + "'class='img-rounded'><p>" +
-      projects.description[i] + "</p></a></li>");
+      projects.description[i]+ "</p></a>"
+      projects.devs[i] + "</li>");
     }
 
     $(".projects").append(project);
