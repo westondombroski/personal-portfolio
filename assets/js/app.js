@@ -68,7 +68,7 @@ var projects = [{
   { 'picture': "assets/imgs/GAHub.png",
     'name': "GA-Hub",
     'description': "Quick and easy search application for General Assembly's SF Web Development Immersive labs and lectures",
-    'link':"https://assembled.herokuapp.com",
+    'link': "https://assembled.herokuapp.com",
     'devs': "Anton, Brett, Ivan & Weston"
   },
   { 'picture': "assets/imgs/CarpeGov.png",
