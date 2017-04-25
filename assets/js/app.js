@@ -68,7 +68,7 @@ var projects = [{
   { 'picture': "assets/imgs/GAHub.png",
     'name': "GA-Hub",
     'description': "Quick and easy search application for General Assembly's SF Web Development Immersive labs and lectures",
-    'link':"https://assembled.herokuapp.com"
+    'link':"https://assembled.herokuapp.com",
     'devs': "Anton, Brett, Ivan & Weston"
   },
   { 'picture': "assets/imgs/CarpeGov.png",
@@ -80,7 +80,7 @@ var projects = [{
   { 'picture': "assets/imgs/code.jpg",
     'name': "Vagabond",
     'description': "A social travel application. Sign up, login, find and post comments on your favorite travel destinations",
-    'link': "https://vagabondapp1.herokuapp.com"
+    'link': "https://vagabondapp1.herokuapp.com",
     'devs': "Chris, Thelma, Yvonne and Weston"
   }];
 
