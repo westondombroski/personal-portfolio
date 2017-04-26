@@ -77,7 +77,7 @@ var projects = [{
     'link': "https://carpegov.herokuapp.com",
     'devs': "Yan Yin and Weston"
   },
-  { 'picture': "assets/imgs/code.jpg",
+  { 'picture': "assets/imgs/Vagabond.png",
     'name': "Vagabond",
     'description': "A social travel application. Sign up, login, find and post comments on your favorite travel destinations",
     'link': "https://vagabondapp1.herokuapp.com",
@@ -86,7 +86,11 @@ var projects = [{
 
 for(var i = 0; i < projects.length; i++) {
   var eachProject = projects[i];
-  var addProject = (`<li class='col-xs-12 col-sm-6'><a href='${eachProject.link}'><img src='${eachProject.picture}'alt='${eachProject.name}' class= 'img-rounded col-xs-12 col-md-6'><p>${eachProject.description}</p><p>${eachProject.devs}</p></a></li>`);
+  var addProject = (`<li class='col-xs-12'>
+                    <a href='${eachProject.link}'>
+                    <img class="project-images text-center" src='${eachProject.picture}'alt='${eachProject.name}'
+                    class= 'img-rounded col-xs-12 text-center'></a></li>
+                    <li><h6 class='project-text col-xs-12'>${eachProject.description}</h6><p class ='project-text col-xs-12'>${eachProject.devs}</p></li>`);
   $(".projects").append(addProject);
 }
 
