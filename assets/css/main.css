@@ -4,7 +4,6 @@ html, body {
     padding: 0;
     height: 100%;
     min-height: 100%;
-    font-family: sans-serif;
 }
 body{
   position: relative;
@@ -15,11 +14,8 @@ h3{
 
 }
 p{
-  font-family:sans-serif;
-  font-size: small;
-  padding-left: 15%;
-  padding-right: 15%;
   vertical-align: middle;
+  margin: 0;
 }
 .pagewrapper{
   min-height: 100%;
@@ -49,7 +45,8 @@ p{
   padding-right:0;
 }
 .page-content{
-  padding-bottom:80px;
+  margin: 70px;
+  margin-top: 50px;
 }
 .footer{
   background-color: white;
@@ -84,15 +81,20 @@ p{
 .resume{
   padding-left: 100px;
   padding-right: 100px;
+  padding-bottom: 50px;
 }
 .res{
-  padding-top: 50px;
+  padding-top: 20px;
 }
 .dropdown{
   padding-top: 50px;
 }
 .project-images {
-  border: 1px solid #021a40;
-  width: 400px;
+  width: 550px;
+  height: 290px;
   padding: 10px;
+}
+@font-face {
+      font-family: Aileron;
+      src: url("assets/fonts/aileron/Aileron-Light.otf") format("opentype");
 }

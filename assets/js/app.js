@@ -85,13 +85,10 @@ var projects = [{
   }];
 
 for(var i = 0; i < projects.length; i++) {
-  var eachProject = projects[i];
-  var addProject = (`<li class='col-xs-12'>
-                    <a href='${eachProject.link}'>
-                    <img class="project-images text-center" src='${eachProject.picture}'alt='${eachProject.name}'
-                    class= 'img-rounded col-xs-12 text-center'></a></li>
-                    <li><h6 class='project-text col-xs-12'>${eachProject.description}</h6><p class ='project-text col-xs-12'>${eachProject.devs}</p></li>`);
-  $(".projects").append(addProject);
+  var project = projects[i];
+  var addProjects = (``);
+
+  $(".projects").append(addProjects);
 }
 
 });

@@ -20,6 +20,7 @@
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
           crossorigin="anonymous"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/W.png">
 </head>
@@ -37,27 +38,27 @@
         <a class="backtomain"><img class="img-responsive btn logo static hidden wherepage"  src="assets/imgs/where_head.png" alt="wherehead"></a> <!--Where Header-->
         <a class="backtomain"><img class="img-responsive btn logo static hidden whypage"    src="assets/imgs/why_head.png"   alt="whyhead"></a> <!--Why Header-->
       </div>
-      <!--nav bar-->
+  <!--nav bar-->
       <div class="row">
-        <div id="nav" class="col-xs-6 col-md-4">  <!--HIDDEN nav bar buttons-->
+        <div id="nav" class="col-xs-4 img-responsive">  <!--HIDDEN nav bar buttons-->
           <ul class="list-unstyled menu dropdown hidden navbar">
-            <li><a id="who_btn"   href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/who.png"   alt="who"></a></li>
-            <li><a id="what_btn"  href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/what.png"  alt="what"></a></li>
-            <!-- <li><a id="where_btn" href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/where.png" alt="where"></a></li> -->
-            <li><a id="why_btn"   href=#><img  class="center-block responsive nav-buttons btn" src="assets/imgs/why.png"   alt="why"></a></li>
+            <li><a id="who_btn"   href=#><img  class="center-block img-responsive nav-buttons btn" src="assets/imgs/who.png"   alt="who"></a></li>
+            <li><a id="what_btn"  href=#><img  class="center-block img-responsive nav-buttons btn" src="assets/imgs/what.png"  alt="what"></a></li>
+         <!-- <li><a id="where_btn" href=#><img  class="center-block img-responsive nav-buttons btn" src="assets/imgs/where.png" alt="where"></a></li> -->
+            <li><a id="why_btn"   href=#><img  class="center-block img-responsive nav-buttons btn" src="assets/imgs/why.png"   alt="why"></a></li>
           </ul>
         </div>
 
-        <!--homepage/dropdown-menu photo-->
-        <div id="mascot" class="col-xs-6 col-md-8 no-gutter">
+  <!--homepage/dropdown-menu photo-->
+        <div id="mascot" class="col-xs-8 no-gutter">
           <div class="mascots">
             <img class="img-responsive mascot menu homepage" src="assets/imgs/wd0.png" alt="wd0"> <!--homepage mascot-->
             <img class="img-responsive mascot menu menupage hidden" src="assets/imgs/wd1.png" alt="wd1"> <!--when menu drops down mascot-->
           </div>
-          <!--content-->
-          <div class= "hidden whitebg" style="background-color: white;">   <!--HIDDEN page content-->
+  <!--content-->
+          <div class= "hidden whitebg">   <!--HIDDEN page content-->
             <!--'who' content-->
-            <div class="page-content whopage hidden">
+            <div class="page-content whopage hidden" style="background-color: white;">
               <h4 class="text-center res">Resume
                 <a class="whopage text-center" href="wd_resume.pdf" download>
                   <div class=" text-center glyphicon glyphicon-download"></div>
@@ -67,10 +68,50 @@
             </div>
             <!--'what' content-->
             <div class="page-content whatpage hidden">
-              <div>
-                <h4 class='text-center res'>Projects</h4>
-                <ul class="list-inline list-unstyled projects text-center">
-                </ul>
+              <!-- Carousel -->
+              <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner text-center" style="background-color: white;" role="listbox">
+                  <div class="item active">
+                    <a href="https://whoplayedonthat.herokuapp.com"><img class="project-images center-block" src="assets/imgs/WhoPlayedOnThat.png" alt="WhoPlayedOnThat"></a>
+                    <div>
+                      <p>An app for all those times that you think, 'Man, that's a funky beat, who played drums on that track?'</p>
+                      <p>-Weston</p>
+                    </div>
+                  </div>
+                  <div class="item projects">
+                    <a href="https://assembled.herokuapp.com"><img class="project-images center-block" src="assets/imgs/GAHub.png" alt="GA-Hub"></a>
+                    <div>
+                      <p>Search application for General Assembly's SF Web Development Immersive labs and lectures</p>
+                      <p>-Anton, Brett, Ivan and Weston</p>
+                    </div>
+                  </div>
+                  <div class="item projects">
+                    <a href="https://vagabondapp1.herokuapp.com"><img class="project-images center-block" src="assets/imgs/Vagabond.png" alt="Vagabond"></a>
+                    <div>
+                      <p>A social travel application. Sign up, login, find and post comments on your favorite travel destinations</p>
+                      <p>-Chris, Thelma, Yvonne and Weston</p>
+                    </div>
+                  </div>
+                  <div class="item projects">
+                  <a href="https://carpegov.herokuapp.com"><img class="project-images center-block" src="assets/imgs/CarpeGov.png" alt="CarpeGov"></a>
+                    <div>
+                      <p>Find, store, sort and take action on current and pending legislation</p>
+                      <p>-Yan Yin and Weston</p>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
             </div>
             <!--'where' content-->
@@ -85,7 +126,7 @@
               </ul>
             </div> -->
             <!--'why' content-->
-            <div class="page-content whypage hidden">
+            <div class="page-content whypage hidden" style="background-color: white;">
               <h4 class="text-center res">Why Develop?</h4>
               <h4 class="resume res">Web development offers a practical and effective approach in finding solutions to current and future challenges. Learning to solve problems as they arise with elegant, efficient web based solutions is an incredibly appealing and increasingly necessary skill to possess.</h4>
               <br>
@@ -96,7 +137,7 @@
       </div>
     </div>
   </div>
-<!--footer-->
+  <!--footer-->
   <div class="col-xs-12 footer">
     <div class="row footer">
       <ul class="list-inline">
